@@ -3,7 +3,7 @@ let googleIt = require('google-it')
 let handler = async (m, { conn, command, args, usedPrefix }) => {
   let full = /f$/i.test(command)
   let text = args.join` `
-  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} Bahasa pemrograman`
+  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} Halim Ganteng :v`
   let url = 'https://google.com/search?q=' + encodeURIComponent(text)
   let search = await googleIt({ query: text })
   let msg = search.map(({ title, link, snippet }) => {
