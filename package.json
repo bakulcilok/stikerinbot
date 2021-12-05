@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariffb25/stikerinbot.git"
+    "url": "git+https://github.com/bakulcilok/stikerinbot.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -22,9 +22,9 @@
   "author": "bakulcilok",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ariffb25/stikerinbot/issues"
+    "url": "https://github.com/bakulcilok/stikerinbot/issues"
   },
-  "homepage": "https://github.com/ariffb25/stikerinbot",
+  "homepage": "https://github.com/bakulcilok/stikerinbot",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.54.0",
