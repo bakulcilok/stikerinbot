@@ -1,5 +1,5 @@
 {
-  "name": "stikerinbot",
+  "name": "bakulbot",
   "version": "1.1.2",
   "description": "WhatsApp Bot Ringan",
   "main": "index.js",
@@ -19,7 +19,7 @@
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Ariffb",
+  "author": "bakulcilok",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ariffb25/stikerinbot/issues"
