@@ -393,8 +393,8 @@ module.exports = {
           let groupMetadata = await this.groupMetadata(jid)
           for (let user of participants) {
             // let pp = './src/avatar_contact.png'
-            let pp = 'https://i.ibb.co/jr9Nh6Q/Thumb.jpg'
-            let ppgc = 'https://i.ibb.co/jr9Nh6Q/Thumb.jpg'
+            let pp = 'https://telegra.ph/file/a3cd34691815ddb3d2b36.jpg'
+            let ppgc = 'https://telegra.ph/file/a3cd34691815ddb3d2b36.jpg'
             try {
               pp = await uploadImage(await (await fetch(await this.getProfilePicture(user))).buffer())
               ppgc = await uploadImage(await (await fetch(await this.getProfilePicture(jid))).buffer())
